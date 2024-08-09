@@ -8,59 +8,69 @@ To run the project locally, follow these steps:
 
 ### Clone the Repository
 
+```bash
 git clone https://github.com/MidhlajBasheer/todo-python-django-react.git
 cd todo-python-django-react
+Backend Setup (Django)
+Navigate to the backend directory:
 
-### Backend Setup (Django)
+bash
+Copy code
+cd backend
+Create a virtual environment:
 
-1. **Navigate to the backend directory:**
+bash
+Copy code
+python -m venv venv
+Activate the virtual environment:
 
-   cd backend
+On Windows:
 
-2. **Create a virtual environment:**
+bash
+Copy code
+venv\Scripts\activate
+On macOS and Linux:
 
-   python -m venv venv
+bash
+Copy code
+source venv/bin/activate
+Install Python dependencies:
 
-3. **Activate the virtual environment:**
+bash
+Copy code
+pip install -r requirements.txt
+Apply database migrations:
 
-   - **On Windows:**
+bash
+Copy code
+python manage.py migrate
+Create a superuser (optional):
 
-     venv\Scripts\activate
+bash
+Copy code
+python manage.py createsuperuser
+Run the Django development server:
 
-   - **On macOS and Linux:**
+bash
+Copy code
+python manage.py runserver
+The backend will be running at http://127.0.0.1:8000.
 
-     source venv/bin/activate
+Frontend Setup (React)
+Navigate to the frontend directory:
 
-4. **Install Python dependencies:**
+bash
+Copy code
+cd ../frontend
+Install npm packages:
 
-   pip install -r requirements.txt
+bash
+Copy code
+npm install
+Run the React development server:
 
-5. **Apply database migrations:**
+bash
+Copy code
+npm start
+The frontend will be running at http://localhost:3000.
 
-   python manage.py migrate
-
-6. **Create a superuser (optional):**
-
-   python manage.py createsuperuser
-
-7. **Run the Django development server:**
-
-   python manage.py runserver
-
-   The backend will be running at http://127.0.0.1:8000.
-
-### Frontend Setup (React)
-
-1. **Navigate to the frontend directory:**
-
-   cd ../frontend
-
-2. **Install npm packages:**
-
-   npm install
-
-3. **Run the React development server:**
-
-   npm start
-
-   The frontend will be running at http://localhost:3000.
