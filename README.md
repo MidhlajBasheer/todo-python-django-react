@@ -16,7 +16,8 @@ Navigate to the backend directory:
 
 bash
 Copy code
-cd backend
+
+**cd backend**
 Create a virtual environment:
 
 bash
