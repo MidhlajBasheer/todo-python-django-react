@@ -74,3 +74,11 @@ Copy code
 npm start
 The frontend will be running at http://localhost:3000.
 
+
+
+### Key Points:
+- **Code Blocks**: Use triple backticks (```) to ensure code is formatted correctly.
+- **Commands**: Each block of code is clearly labeled and separated, making it easy to copy and paste.
+- **Links**: Include clickable URLs for easy access.
+
+
