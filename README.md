@@ -8,7 +8,7 @@ To run the project locally, follow these steps:
 
 ### Clone the Repository
 
-```bash
+bash
 git clone https://github.com/MidhlajBasheer/todo-python-django-react.git
 cd todo-python-django-react
 Backend Setup (Django)
@@ -18,7 +18,7 @@ bash
 Copy code
 
 **cd backend**
-###Create a virtual environment:
+### Create a virtual environment:
 
 bash
 Copy code
