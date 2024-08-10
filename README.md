@@ -7,7 +7,7 @@ A full-stack To-Do application built with Django for the backend and React for t
 To run the project locally, follow these steps:
 
 ### Clone the Repository
-
+```
 ``` git clone https://github.com/MidhlajBasheer/todo-python-django-react.git ```
 ``` cd todo-python-django-react ```
 
@@ -50,4 +50,4 @@ Install npm packages:
 
 Run the React development server:
 ``` npm start ```
-The frontend will be running at http://localhost:3000. 
+The frontend will be running at http://localhost:3000. ```
