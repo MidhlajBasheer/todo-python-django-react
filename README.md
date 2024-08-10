@@ -15,7 +15,7 @@ cd todo-python-django-react
  ```
 
 ### Backend Setup (Django)
-Navigate to the backend directory:
+#### Navigate to the backend directory:
 ```bash
 cd backend
 ```
@@ -58,7 +58,7 @@ python manage.py runserver
  ```
 #### The backend will be running at http://127.0.0.1:8000.
 
-#### Frontend Setup (React)
+### Frontend Setup (React)
 
 #### Navigate to the frontend directory:
 ```bash
