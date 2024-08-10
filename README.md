@@ -23,7 +23,9 @@ Create a virtual environment:
 bash
 Copy code
 
-``````python -m venv venv``````
+
+""" python -m venv venv """
+
 Activate the virtual environment:
 
 On Windows:
