@@ -27,29 +27,42 @@ venv\Scripts\activate
  ```
 
 On macOS and Linux:
-``` source venv/bin/activate ```
+```bash source venv/bin/activate 
+```
 
 #Install Python dependencies:
-``` pip install -r requirements.txt ```
+```bash
+pip install -r requirements.txt
+ ```
 
 #Apply database migrations:
 ``` python manage.py migrate ```
 
 #Create a superuser (optional):
-``` python manage.py createsuperuser ```
+```bash
+python manage.py createsuperuser
+ ```
 
 #Run the Django development server:
-``` python manage.py runserver ```
+```bash
+python manage.py runserver
+ ```
 #The backend will be running at http://127.0.0.1:8000.
 
 ##Frontend Setup (React)
 
 #Navigate to the frontend directory:
-``` cd ../frontend ```
+```bash
+cd ../frontend
+ ```
 
 #Install npm packages:
-``` npm install ```
+```bash
+npm install
+ ```
 
 #Run the React development server:
-``` npm start ```
-The frontend will be running at http://localhost:3000.
+```bash
+npm start
+```
+#The frontend will be running at http://localhost:3000.
