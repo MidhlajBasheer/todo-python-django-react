@@ -16,7 +16,9 @@ cd todo-python-django-react
 
 ### Backend Setup (Django)
 Navigate to the backend directory:
-``` cd backend ```
+```bash
+cd backend
+```
 #### Create a virtual environment:
 
 ```bash 
@@ -31,7 +33,8 @@ venv\Scripts\activate
  ```
 
 On macOS and Linux:
-```bash source venv/bin/activate 
+```bash
+ source venv/bin/activate 
 ```
 
 #### Install Python dependencies:
@@ -40,7 +43,9 @@ pip install -r requirements.txt
  ```
 
 #### Apply database migrations:
-``` python manage.py migrate ```
+```bash
+python manage.py migrate
+```
 
 #### Create a superuser (optional):
 ```bash
@@ -53,7 +58,7 @@ python manage.py runserver
  ```
 #### The backend will be running at http://127.0.0.1:8000.
 
-###Frontend Setup (React)
+#### Frontend Setup (React)
 
 #### Navigate to the frontend directory:
 ```bash
