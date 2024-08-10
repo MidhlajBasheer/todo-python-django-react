@@ -8,7 +8,7 @@ To run the project locally, follow these steps:
 
 ### Clone the Repository
 
-'''bash
+```bash
 git clone https://github.com/MidhlajBasheer/todo-python-django-react.git
 cd todo-python-django-react
 Backend Setup (Django)
@@ -76,7 +76,7 @@ Run the React development server:
 bash
 Copy code
 npm start
-The frontend will be running at http://localhost:3000.
+The frontend will be running at http://localhost:3000. ```
 
 
 
