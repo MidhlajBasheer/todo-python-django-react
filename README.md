@@ -56,7 +56,7 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
  ```
-#### The backend will be running at http://127.0.0.1:8000.
+##### The backend will be running at http://127.0.0.1:8000.
 
 ### Frontend Setup (React)
 
@@ -74,4 +74,4 @@ npm install
 ```bash
 npm start
 ```
-#### The frontend will be running at http://localhost:3000.
+##### The frontend will be running at http://localhost:3000.
