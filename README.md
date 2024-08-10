@@ -1,10 +1,10 @@
 # To-Do Application
 
-A full-stack To-Do application built with Django for the backend and React for the frontend. Follow these steps to set up and run the project locally.
+##### A full-stack To-Do application built with Django for the backend and React for the frontend. Follow these steps to set up and run the project locally.
 
 ## Initial Setup
 
-To run the project locally, follow these steps:
+#### To run the project locally, follow these steps:
 
 ### Clone the Repository
 ```bash
