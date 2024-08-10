@@ -15,13 +15,16 @@ Navigate to the backend directory:
 ``` cd backend ```
 # Create a virtual environment:
 
-
-``` python -m venv venv ```
+```bash 
+python -m venv venv
+ ```
 
 #Activate the virtual environment:
 
 On Windows:
-``` venv\Scripts\activate ```
+```bash
+venv\Scripts\activate
+ ```
 
 On macOS and Linux:
 ``` source venv/bin/activate ```
