@@ -23,7 +23,7 @@ Navigate to the backend directory:
 python -m venv venv
  ```
 
-#Activate the virtual environment:
+#### Activate the virtual environment:
 
 On Windows:
 ```bash
@@ -34,39 +34,39 @@ On macOS and Linux:
 ```bash source venv/bin/activate 
 ```
 
-#Install Python dependencies:
+#### Install Python dependencies:
 ```bash
 pip install -r requirements.txt
  ```
 
-#Apply database migrations:
+#### Apply database migrations:
 ``` python manage.py migrate ```
 
-#Create a superuser (optional):
+#### Create a superuser (optional):
 ```bash
 python manage.py createsuperuser
  ```
 
-#Run the Django development server:
+#### Run the Django development server:
 ```bash
 python manage.py runserver
  ```
-#The backend will be running at http://127.0.0.1:8000.
+#### The backend will be running at http://127.0.0.1:8000.
 
-##Frontend Setup (React)
+###Frontend Setup (React)
 
-#Navigate to the frontend directory:
+#### Navigate to the frontend directory:
 ```bash
 cd ../frontend
  ```
 
-#Install npm packages:
+#### Install npm packages:
 ```bash
 npm install
  ```
 
-#Run the React development server:
+#### Run the React development server:
 ```bash
 npm start
 ```
-#The frontend will be running at http://localhost:3000.
+#### The frontend will be running at http://localhost:3000.
